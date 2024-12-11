@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DeveloperActivity"
+    android:padding="10sp">
+
+
+    <TextView
+        android:id="@+id/newRecipeHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/poppins"
+        android:text="Guided By"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:background="@drawable/border"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/recipeName_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/editButton"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/sir"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186"></ImageView>
+
+    <TextView
+        android:id="@+id/recipeName_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="Name :  Md. Rashid Al Asif"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/recipeIngredients_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/recipeIngredients_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Assistant Professor"
+        app:layout_constraintStart_toEndOf="@+id/editButton"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName_txt" />
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="3dp"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Department Of Computer Science and Engineering"
+        app:layout_constraintStart_toEndOf="@+id/editButton"
+        app:layout_constraintTop_toBottomOf="@+id/recipeIngredients_txt" />
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/poppins"
+        android:text="Developed By"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:background="@drawable/border"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/recipeName_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ema"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ema"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596"></ImageView>
+
+    <TextView
+        android:id="@+id/ema_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="Name :  ema"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/emad_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/emad_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins"
+        android:text="19CSE009"
+        app:layout_constraintStart_toEndOf="@+id/ema"
+        app:layout_constraintTop_toBottomOf="@+id/ema_txt" />
+
+
+    <ImageView
+        android:id="@+id/rupa"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/rupa"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764"></ImageView>
+
+    <TextView
+        android:id="@+id/rupa_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="Name :  Rupa"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rupad_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/rupad_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins"
+        android:text="19CSE011"
+        app:layout_constraintStart_toEndOf="@+id/rupa"
+        app:layout_constraintTop_toBottomOf="@+id/rupa_txt" />
+
+    <ImageView
+        android:id="@+id/sumu"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/sumi"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986"></ImageView>
+
+    <TextView
+        android:id="@+id/sumu_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="Name :  Sumaiya"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/sumud_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/sumud_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins"
+        android:text="19CSE015"
+        app:layout_constraintStart_toEndOf="@+id/sumu"
+        app:layout_constraintTop_toBottomOf="@+id/sumu_txt"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

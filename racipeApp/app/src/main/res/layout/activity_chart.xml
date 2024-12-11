@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_light"
+
+    >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Nutrition Details"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Fat -  5%"
+        android:textSize="18sp"
+        android:bottom="20dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sodium  - 20%"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories- 300%"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suger -  15%"
+        android:layout_marginBottom="16sp"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textViewFoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salt - 18%"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Protin - 1%"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cholesterol - 8%"
+        android:layout_marginBottom="16sp"
+        android:textSize="18sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitamin A - 12%"
+        android:layout_marginBottom="16sp"
+        android:textSize="18sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories:   300%"
+        android:layout_marginBottom="18sp"
+        android:textSize="18sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitamin B - 20%"
+        android:layout_marginBottom="16sp"
+        android:textSize="18sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iron - 5%"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calsium  - 10%"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="18sp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Carbohidrate  - 25%"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp" />
+
+    <!-- Add more TextViews for other nutrition details like protein, fat, carbs, etc. -->
+
+</LinearLayout>
+
+
+

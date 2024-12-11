@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateRecipeActivity">
+
+    <TextView
+        android:id="@+id/editRecipeHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="Edit Recipe..."
+        android:textColor="@color/purple_500"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/UpdateSaveButton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ip_done"></ImageView>
+
+    <EditText
+        android:id="@+id/UpdateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Recipe Name"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:layout_below="@id/editRecipeHeading"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/UpdateIngredientsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Recipe Ingredients"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:background="@drawable/border"
+        android:layout_below="@id/UpdateTitleEditText"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/UpdateStepsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/border"
+        android:textSize="20dp"
+        android:gravity="top"
+        android:hint="Enter Recipe Steps"
+        android:layout_below="@id/UpdateIngredientsEditText"
+        />
+
+</RelativeLayout>

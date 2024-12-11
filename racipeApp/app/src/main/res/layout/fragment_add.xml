@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+
+    <TextView
+        android:id="@+id/addRecipeHeading"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add New Recipe"
+        android:textColor="@color/purple_500"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="96dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ip_done"></ImageView>
+
+    <EditText
+        android:id="@+id/recipeName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:padding="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:maxLines="1"
+        android:background="@drawable/border"
+        android:textSize="20dp"
+        android:hint="Enter Recipe Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addRecipeHeading"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/recipeIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:padding="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:maxLines="1"
+        android:background="@drawable/border"
+        android:textSize="20dp"
+        android:gravity="top"
+        android:hint="Enter Recipe Ingredients"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/recipeSteps"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="250dp"
+        android:padding="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:maxLines="1"
+        android:background="@drawable/border"
+        android:textSize="20dp"
+        android:gravity="top"
+        android:hint="Enter Recipe Steps"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeIngredients"
+        ></EditText>
+
+
+</FrameLayout>

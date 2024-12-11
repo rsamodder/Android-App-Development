@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">racipe App</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="title_activity_chart">chartActivity</string>
+    <string name="reset_senha">EVIAR EMAIL DE RECUPERAÇÃO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Botao_proximo" />
+    <string name="Botton_proximo">Próximo</string>
+    <string name="dieta1" align="center">
+<!--        1000kcal - 400kcal proteina, 200kcal carboidratos, 400kcal gordura-->
+        <!--        4 refeições - 250kcal cada refeição\n\n\n\n-->
+
+        <!--        1- café da manha - 58g batata doce, 65g ovo, 17g pasta de amendoim\n\n-->
+        <!--        2- lanche x - 31g aipim, 68g carne, 16g nozes\n\n-->
+        <!--        3- almoço - 38g arroz branco, 42g frango, 11g azeite\n\n-->
+        <!--        4- lanche x - 57g peixe, 41g banana da terra, 18g amendoim-->
+        1000kcal - 400kcal protein, 200kcal carbohydrates, 400kcal fat
+        4 meals - 250kcal each meal\n\n\n\n
+
+        1- breakfast - 58g sweet potato, 65g egg, 17g peanut butter\n\n
+        2- snack x - 31g cassava, 68g meat, 16g nuts\n\n
+        3- lunch - 38g white rice, 42g chicken, 11g olive oil\n\n
+        4- snack x - 57g fish, 41g banana, 18g peanuts
+    </string>
+
+    <string name="dieta2" align="center">
+<!--        1500kcal - 600kcal proteina, 300kcal carboidratos, 600kcal gordura-->
+        <!--        4refeições - 375kcal por refeição\n\n\n\n-->
+
+        <!--        1- 97g ovo, 87g batata doce, 26g pasta de amendoim\n\n-->
+        <!--        2 - 47g aipim, 102g carne, 25g nozes\n\n-->
+        <!--        3 - 58g arroz branco, 63g frango, 17g azeite\n\n-->
+        <!--        4 - 87g peixe, 61g banana da terra, 26g amendoim-->
+        1500kcal - 600kcal protein, 300kcal carbohydrates, 600kcal fat
+        4 meals - 375kcal per meal\n\n\n\n
+
+        1- 97g egg, 87g sweet potato, 26g peanut butter\n\n
+        2 - 47g cassava, 102g meat, 25g nuts\n\n
+        3 - 58g white rice, 63g chicken, 17g olive oil\n\n
+        4 - 87g fish, 61g plantain, 26g peanuts
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

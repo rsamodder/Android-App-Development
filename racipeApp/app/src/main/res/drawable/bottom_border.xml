@@ -1,0 +1,11 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</selector>-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="2dp"> <!-- Adjust the border width by changing the value of android:bottom -->
+        <shape>
+            <solid android:color="#00FF00" /> <!-- Green color for the border -->
+        </shape>
+    </item>
+</layer-list>
